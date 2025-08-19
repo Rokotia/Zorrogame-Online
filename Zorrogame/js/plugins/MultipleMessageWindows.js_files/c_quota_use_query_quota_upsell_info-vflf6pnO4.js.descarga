@@ -1,0 +1,5 @@
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="0f76a8a7-1b3d-3cf4-afed-a795e2fa5f27")}catch(e){}}();
+define(["exports","react","./e_file_viewer_static_scl_page_file","./c_react_query_api_helpers_utils"],(function(e,t,r,a){"use strict";function s(e){return e.ns("overquota_state")}const n=r.createDefaultApiv2QueryFn(s,"quota_upsell_info"),o=r.createApiv2Query({nsClient:s,rpc:"quota_upsell_info",queryFn:(...e)=>(...t)=>a.reportExceptionIfRequestFails((async()=>await n(...e)(...t)),["quota_upsell_info"])}),u=18e4,i=6e5;e.getQuotaUpsellInfoPackage=o,e.useQuotaUpsellInfo=e=>{const{data:a,error:s}=o.useQuery({apiArg:{}},{refetchOnReconnect:!1,refetchOnWindowFocus:!0,refetchInterval:e&&e.is_team?6e5:18e5,staleTime:e&&e.is_team?u:i,cacheTime:e&&e.is_team?u:i,retry:1});return t.useEffect((()=>{s&&r.ProEventsLogger.log("use_quota_upsell_info_error")}),[s]),null==a?void 0:a.apiData}}));
+//# sourceMappingURL=c_quota_use_query_quota_upsell_info.js-vflXEOEr3.map
+
+//# debugId=0f76a8a7-1b3d-3cf4-afed-a795e2fa5f27

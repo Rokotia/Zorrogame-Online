@@ -1,0 +1,5 @@
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="f7619d3d-2d7e-31eb-8ca3-7ff9afe5c8e4")}catch(e){}}();
+define(["exports","./e_file_viewer_static_scl_page_file"],(function(e,n){"use strict";e.GetUrlForSendVerifyEmail=function(e){var i,l,o;const t=null!==(i=null==e?void 0:e.path)&&void 0!==i?i:"/sendverifyemail",r=null!==(l=null==e?void 0:e.routeParams)&&void 0!==l?l:{},a=null!==(o=null==e?void 0:e.base)&&void 0!==o?o:window.location.origin;return new n.AjaxURL(n.replacePattern(t,r),a)},e.GetUrlForSetTimezone=function(e){var i,l,o;const t=null!==(i=null==e?void 0:e.path)&&void 0!==i?i:"/set_timezone",r=null!==(l=null==e?void 0:e.routeParams)&&void 0!==l?l:{},a=null!==(o=null==e?void 0:e.base)&&void 0!==o?o:window.location.origin;return new n.AjaxURL(n.replacePattern(t,r),a)}}));
+//# sourceMappingURL=c_gen_identity_Web.js-vflZPyRJo.map
+
+//# debugId=f7619d3d-2d7e-31eb-8ca3-7ff9afe5c8e4

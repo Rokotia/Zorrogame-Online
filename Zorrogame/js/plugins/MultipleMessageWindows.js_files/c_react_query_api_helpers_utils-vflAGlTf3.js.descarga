@@ -1,0 +1,5 @@
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="28b1f64a-2b21-3a5c-b5ef-b3c3159374c2")}catch(e){}}();
+define(["exports","react","./c_core_transport_rpc_exceptions"],(function(e,t,a){"use strict";e.reportExceptionIfRequestFails=async(e,t=[],r,c)=>await a.reportExceptionIfRpcRequestFails(e,{additionalTags:["js:react-query",...t],onErrorCallback:r,onCancelledCallback:c})}));
+//# sourceMappingURL=c_react_query_api_helpers_utils.js-vfl_CVfrB.map
+
+//# debugId=28b1f64a-2b21-3a5c-b5ef-b3c3159374c2

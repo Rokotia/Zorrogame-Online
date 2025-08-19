@@ -1,0 +1,5 @@
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="286b9bc7-395e-35a5-8974-8de683f86cd8")}catch(e){}}();
+define(["exports","./e_file_viewer_static_scl_page_file"],(function(i,e){"use strict";i.GetUrlForIsEmailVerified=function(i){var l,n,o;const r=null!==(l=null==i?void 0:i.path)&&void 0!==l?l:"/isemailverified",t=null!==(n=null==i?void 0:i.routeParams)&&void 0!==n?n:{},a=null!==(o=null==i?void 0:i.base)&&void 0!==o?o:window.location.origin;return new e.AjaxURL(e.replacePattern(r,t),a)}}));
+//# sourceMappingURL=c_gen_identity_WebIsEmailVerified.js-vfl6rxECL.map
+
+//# debugId=286b9bc7-395e-35a5-8974-8de683f86cd8

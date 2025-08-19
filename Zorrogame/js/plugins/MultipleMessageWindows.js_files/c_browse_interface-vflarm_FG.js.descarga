@@ -1,0 +1,5 @@
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="52e023d0-d65d-3e28-98ef-3690065086c8")}catch(e){}}();
+define(["exports","./c_core_i18n","./c_init_data_debug_panel","./c_memoize-one","./e_file_viewer_static_scl_page_file","./c_chat_chat_constants","react"],(function(e,t,n,r,i,a,s){"use strict";e.getFileHistoryUrl=function({fqPath:e,userId:t},r){const a={...null==r?{}:r,undelete:"1",[i.UID_PARAM_NAME]:String(t)};return e=e.replace(/^[/]/,""),new n.URI({path:`/history/${e}`}).updateQuery(a).toString()},e.getFileHistoryUrlForNsPath=function({nsPath:e,nsId:t,userId:r},a){const s={...null!=a?a:{},ns_id:`${t}`,undelete:"1",[i.UID_PARAM_NAME]:String(r)};return e=e.replace(/^[/]/,""),new n.URI({path:`/history/${e}`}).updateQuery(s).toString()},e.get_browse_root_name=function(e,n){return e.is_paired?i.deprecatedGetRootName(t.intl,e,n):t.intl.formatMessage({id:"bObFEu",defaultMessage:"Files"})}}));
+//# sourceMappingURL=c_browse_interface.js-vflaPRfw7.map
+
+//# debugId=52e023d0-d65d-3e28-98ef-3690065086c8
